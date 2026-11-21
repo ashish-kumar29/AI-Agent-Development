@@ -1,0 +1,99 @@
+# ==========================================
+# 🔐 API KEYS, SECRETS & ENVIRONMENT
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*credentials*.json
+*serviceaccount*.json
+secrets/
+
+# ==========================================
+# 🧠 AI MODELS, WEIGHTS & CACHES
+# ==========================================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+*.ggml
+*.ckpt
+*.h5
+models/
+checkpoints/
+.cache/
+huggingface/
+ollama_models/
+
+# ==========================================
+# 🗄️ VECTOR STORES, EMBEDDINGS & DATASETS
+# ==========================================
+*.faiss
+*.index
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.arrow
+chroma/
+chroma_db/
+lancedb/
+qdrant_storage/
+weaviate_data/
+vectorstore/
+data/raw/
+data/processed/
+uploads/
+
+# ==========================================
+# 📊 EVALS, PROMPTS & TRACE LOGS
+# ==========================================
+logs/
+*.log
+eval_results/
+traces/
+langsmith_cache/
+mlruns/
+wandb/
+
+# ==========================================
+# 🐍 PYTHON & JUPYTER
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info/
+
+# ==========================================
+# 🟨 NODE.JS / TYPESCRIPT (If building UI/API)
+# ==========================================
+node_modules/
+.next/
+out/
+.turbo/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 🛠️ IDEs, OS & AI CODING TOOLS
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cursor/
+.claude/
