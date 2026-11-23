@@ -6,7 +6,7 @@ print("hello, world!")
   
 client = OpenAI(
        base_url=os.getenv("BASE_URL"),
-       api_key=os.getenv("GEMINI_API_KEY")
+       api_key=os.getenv("API_KEY")  
 )
 print("="*40)
 print("My Personal AI Assistant")
